@@ -14,4 +14,4 @@ jobs:
       - name: Install libs
         run: sudo apt-get install libgfortran3
       - name: Run tests
-        run: sbt +test
+        run: sbt test
