@@ -44,6 +44,7 @@ class MatProdSpec extends Specification {
       val δ = dot.maxGradDelta(x, ε)
       δ must beCloseTo(0, ε)
     }
+/*
     "take time in" in {
       val a = 20
       val b = 200
@@ -58,5 +59,6 @@ class MatProdSpec extends Specification {
       println(tb)
       1 === 1
     }
+*/
   }
 }
